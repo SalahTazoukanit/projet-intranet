@@ -19,7 +19,7 @@ if ($editBtn) {
             $descriptionInput = $_POST["descriptionInput"] ;
 
             //direction à partir de mon projet
-            $target_dir = "PHP/SQL-ProjetIntranet/uploads/" ;
+            $target_dir = "Sites/SQL-ProjetIntranet/uploads/" ;
             //je recuper mon input file via cette methode et pas avec la methode POST;
             $image_name = basename($_FILES["imageVoyage"]["name"]);
             var_dump($_FILES["imageVoyage"]);
