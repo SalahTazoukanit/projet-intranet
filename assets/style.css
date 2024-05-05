@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+}
+#filter{
+    border: none;
+}
+.search{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    align-items: center;
+    border-radius: 5px;
+}
+.search input{
+    width: 200px;
+    
+}
+/*css page login*/
+.logoContainer img{
+    width: 300px;
+}
+.centralContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-image: url(images/photo3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 415px;
+}
+form{
+    background-color:rgba(255, 255, 255, 0.34);
+    box-shadow: rgba(108, 108, 108, 0.411) 0px 2px 8px 0px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    text-align: left;
+    padding: 55px;
+}
+.fieldContainer{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width:400px ;
+    height: 25px;
+}
+button{
+    width:100px;
+    border-radius: 10px;
+    height: 25px;
+    color: white;
+    border: none;
+    background-color: orange;
+}
+button:hover{
+    opacity: 0.5;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.5;
+}
+.erreur{
+    color: red;
+}
+
+/*css page admin :*/
+.containerAdminPage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2em;
+    margin-top: 15px;
+}
+.dashboard{
+    min-height: 550px;
+    max-height: 550px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.voyageInfo{
+    display: flex;
+    gap: 1em;
+    /* margin-top: 50px; */
+    align-items: center;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+.voyageInfo img{
+    width: 700px;
+    height:200px;
+    border-radius: 5px;
+}
+.infos{
+    width: 100%;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+.infos::-webkit-scrollbar{
+    display: none;
+}
+.travelAddContainer h2 {
+ display: flex;
+ justify-content: flex-end;
+ justify-content: center;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.containerVoyages{
+    display: flex;
+    flex-direction:column ;
+    max-height: 550px;
+    max-width: 60%;
+    overflow-y: scroll;
+    gap: 1em;
+}
+.containerVoyages::-webkit-scrollbar {
+    display: none;
+}
+.buttonAdminPage{
+    width: 200px;
+    background-color: white;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.buttons button{
+    width: 200px;
+    background-color: white;
+    color: black;
+}
+
+/*css du formulaire add et edit*/
+.formulaireAddEdit{
+    display: flex;
+    flex-direction: row;
+    box-shadow: none;
+    justify-content: center;
+    gap: 5em;
+}
+.colonneUn{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.colonneUn input,select{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+.colonneDeux{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.colonneDeux input,textarea{
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+}
+.colonneDeux input{
+    height: 100px;
+}
+.colonneDeux button{
+    height: 25px;
+    width: 200px;
+    background-color: white;
+    color: black;
+}
+.colonneDeux textarea{
+    height: 200px;
+}
+.borderFormAdd{
+    background-color: rgba(120, 120, 120, 0.159);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 30px;
+}
+.exit{
+    margin-bottom: 50%;
+}
+.message{
+    margin: 10px auto;
+    border-radius: 10px;
+    color: rgba(8, 148, 50, 0.899);
+    width: 20%;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.classBar form{
+    box-shadow: none;
+}
+.classBar input{
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
