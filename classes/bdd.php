@@ -12,7 +12,7 @@
             $this->localhost = "localhost";
             $this->dbname = "jcpvoyage";
             $this->username = "root";
-            $this->password = "root" ;
+            $this->password = "root";
 
         }
 

@@ -15,13 +15,13 @@
     <div class="borderFormAdd">    
         <div class="colonneUn">
             <select name="selectCategorie" id="selectCategorie">
-                <option name="1">Mer</option>
+                <option value="1" name="1">Mer</option>
                 <option value="2">Montagne</option>
                 <option value="3">Campagne</option>
             </select>
             <select name="selectFormule" id="formule">
-                <option value="classic">Classique</option>
-                <option value="deuxPourUn">2 pour 1</option>
+                <option value="1">Classique</option>
+                <option value="2">2 pour 1</option>
             </select>
             <div class="dateDebut">Date debut <br><input name="dateDebut" type="date"></div>
             <div class="dateFin">Date fin <br><input name="dateFin" type="date"></div>
